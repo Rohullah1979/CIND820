@@ -1,9 +1,10 @@
 ##BumbleBee:
+# to read data file number 2
 
 bumblebee <- read.csv(file = "C:\\Users\\Narges\\Desktop\\DataAnalytics\\CIND 820\\Bumble_Bee_Public_Data.csv")
 summary(bumblebee)
-summary(as.factor(bumblebee$ï..County))
-nlevels(as.factor(bumblebee$ï..County))
+summary(as.factor(bumblebee$Ã¯..County))
+nlevels(as.factor(bumblebee$Ã¯..County))
 str(bumblebee)
 sum(is.na(bumblebee))
 
